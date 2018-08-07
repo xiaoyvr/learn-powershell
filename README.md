@@ -1,6 +1,6 @@
 # The Practice of Writing Powershell
 
-## why bother? 
+## Why Bother? 
 
 Ask audience about why first. 
 
@@ -22,7 +22,7 @@ All my powershell knowledge were learned from there. Which is also today's topic
 This is from return the right deployment information from the deployment script. 
 
 Example: [hidden-return.ps1](./hidden-return.ps1)
-
+
 * Prevent `accidentally return` by local variable or `out-default`
 * Deal with the output of an `exe` e.g. `xunit.runner.exe`
 
@@ -50,7 +50,7 @@ Example: [check-error.ps1](./check-error.ps1)
 So many $workingDir, which one is mine? `$workingDir =  ...` is all over the place. 
 
 * Why you should not use it
-    Scope/environment variables is common for a script language. But when your script is becoming to more and more complex, this feature is also becoming to a problem. This is one of the reason why script is always hard to understand. Reusable function should take no assumption for it's execution. 
+  Scope/environment variables is common for a script language. But when your script is becoming to more and more complex, this feature is also becoming to a problem. This is one of the reason why script is always hard to understand. Reusable function should take no assumption for it's execution. 
 
 Example: [./scope/scope.ps1](./scope/scope.ps1)
 
